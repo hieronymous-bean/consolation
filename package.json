@@ -1,0 +1,37 @@
+{
+  "name": "consolation",
+  "version": "0.0.1",
+  "description": "Application for customizing console output.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hieronymous-bean/consolation"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "console"
+  ],
+  "author": "jeffreyallanbrown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hieronymous-bean/consolation/issues"
+  },
+  "homepage": "https://github.com/hieronymous-bean/consolation",
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "setup": "npm install && npm run build",
+    "build": "gulp default",
+    "start": "node index"
+  }
+}
