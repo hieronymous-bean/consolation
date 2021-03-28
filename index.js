@@ -1,11 +1,12 @@
-// module.exports = require('./lib/textart.js');
-const textart = require('./lib/textart');
+"use strict";
+const textart = require('./lib/textart.js');
+
 
 const payload = {
-	"input":"ABCD",
-	"typeface":"" // default to doom //
+	"input":"HEGG",
+	"typeface":"3d" // default to doom //
 };
 
 textart.textart(payload, response => {
-	console.log(response)
+	console.log(response);
 });
