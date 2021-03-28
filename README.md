@@ -1,2 +1,3 @@
 # consolation
-Application for customizing console output.
+Application for customizing console output format.
+
