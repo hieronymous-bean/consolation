@@ -1,12 +1,9 @@
-"use strict";
-const textart = require('./lib/textart.js');
+const _textArt = require('./lib/textart.js');
 
-
-const payload = {
-	"input":"HEGG",
-	"typeface":"3d" // default to doom //
+const consolation = {
+	textArt : _textArt.textart
 };
 
-textart.textart(payload, response => {
-	console.log(response);
-});
+exports.default = consolation;
+module.exports = exports.default;
+module.exports.default = exports.default;
